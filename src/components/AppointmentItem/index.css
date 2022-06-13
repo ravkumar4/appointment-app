@@ -1,0 +1,33 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding: 8px;
+}
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-title {
+  color: #171f46;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.mark-starred-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.display-date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
